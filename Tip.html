@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="./Tip.css">
+
+</head>
+<body>
+    <div class="container">
+        <h3>Tip calculator</h3>
+        <div class="inp">
+            <span class="bg">₹</span>
+            <input type="number" id="num" placeholder="Enter amount">
+        </div>
+
+        <div class="inp">
+            <label for="tip">Tip</label>
+            <input type="range" name="range" id="range" min="0" max="100" value="0" step="1">
+            <span class="ran"></span>
+        </div>
+        <div class="inp">
+           <div class="tip">
+            <span class="bord">Tip Amount:</span>
+            <span class="tipamt"></span>
+           </div>
+           
+           <div class="amt">
+           <span class="bord">Total  Bill:</span>
+           <span class="bill"> </span>
+        </div>
+        </div>
+    </div>
+    <script src="./Tip.js">
+      
+
+    </script>
+    
+</body>
+</html>
